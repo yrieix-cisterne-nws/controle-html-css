@@ -1,0 +1,48 @@
+.root {
+  --esspace-moyen: 1rem;
+  --espace-large: 1.5rem;
+}
+
+.navigation_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 105px 22px 105px;
+  gap: 145px;
+  background-color: #f5f7fa;
+}
+
+.bouton-container {
+  display: flex;
+}
+
+.bouton {
+  padding: 10px 20px 10px 20px;
+  margin: 14px;
+}
+
+#btn-login {
+  background-color: #f5f7fa;
+  color: #4caf4f;
+  border: none;
+}
+
+#btn-signup {
+  background-color: #4caf4f;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+}
+
+a {
+  padding: 1em;
+  height: 24px;
+  text-decoration: none;
+  color: black;
+}
